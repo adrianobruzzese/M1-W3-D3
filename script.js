@@ -10,7 +10,7 @@ function addTask() {
     reminders.appendChild(li);
 
     let span = document.createElement('span');
-    span.innerHTML = '\u00d7';
+    span.innerHTML = 'x';
     li.appendChild(span);
   }
   inputBox.value = '';
