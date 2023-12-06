@@ -36,6 +36,7 @@ body {
 .todo-list h2 i {
   width: 25px;
   margin-left: 10px;
+  color: #fff;
 }
 
 .row {
@@ -70,7 +71,7 @@ button {
 ul li {
   list-style: none;
   font-size: 0.9em;
-  padding: 12px 8px 12px 50px;
+  padding: 12px 8px 14px 50px;
   user-select: none;
   cursor: pointer;
   font-weight: 300;
@@ -101,17 +102,18 @@ ul li.checked {
 
 ul li.checked::before {
   background-image: url(./img/checked.png);
+  
 }
 
 ul li span {
   position: absolute;
-  right: 0;
-  bottom: 1px;
-  width: 40px;
-  height: 40px;
+  right: 3px;
+  bottom: 2px;
+  width: 35px;
+  height: 35px;
   font-size: 20px;
-  color: #555;
-  line-height: 40px;
+  color: #fff;
+  line-height: 30px;
   text-align: center;
   border-radius: 50%;
 }

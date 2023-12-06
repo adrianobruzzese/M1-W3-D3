@@ -16,6 +16,8 @@ function addTask() {
   inputBox.value = '';
 }
 
+
+
 reminders.addEventListener(
   'click',
   function (e) {
