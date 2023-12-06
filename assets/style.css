@@ -10,21 +10,22 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #31028d, #95197f, #c92476);
+  background: #0f101c;
+  /* background: linear-gradient(135deg, #31028d, #95197f, #c92476); */
   padding: 10px;
 }
 
 .todo-list {
   width: 100%;
   max-width: 540px;
-  background: #fff;
+  background: #17192b;
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
   border-radius: 15px;
 }
 
 .todo-list h2 {
-  color: #002765;
+  color: #fff;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -73,6 +74,10 @@ ul li{
     cursor: pointer;
     font-weight: 300;
     position: relative;
+    color: #fff;
+    background: #1b1126;
+    border-radius: 50px;
+    margin-top: 10px;
 }
 
 ul li::before{
@@ -100,7 +105,7 @@ ul li.checked::before{
 ul li span{
     position: absolute;
     right: 0;
-    top: 5px;
+    top: 2px;
     width: 40px;
     height: 40px;
     font-size: 22px;
